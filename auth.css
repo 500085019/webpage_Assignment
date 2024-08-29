@@ -1,0 +1,59 @@
+/* Styles specific to authentication pages */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--bg-color);
+    transition: background-color 0.3s ease;
+}
+
+.auth-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px;
+}
+
+.auth-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.auth-box h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.auth-input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.auth-button {
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.auth-button:hover {
+    background-color: #0056b3;
+}
+
+.auth-box p {
+    margin-top: 15px;
+    font-size: 14px;
+}

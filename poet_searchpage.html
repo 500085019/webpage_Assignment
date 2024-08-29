@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Poets - Poetry Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="search.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="logo.png" alt="Company Logo" class="logo-img">
+            </div>
+            <nav>
+                <a href="login.html" class="nav-button">Log In</a>
+                <a href="create_account.html" class="nav-button">Create Account</a>
+                <button onclick="toggleTheme()" id="theme-toggle" class="theme-toggle">🌞</button>
+            </nav>
+        </header>
+
+        <main>
+            <h1>Search Poets</h1>
+            <input type="text" id="search-input" placeholder="Enter poet name or genre">
+            <button onclick="searchPoet()">Search</button>
+
+            <div class="suggestion-box">
+                <div class="suggestion">William Shakespeare</div>
+                <div class="suggestion">Emily Dickinson</div>
+                <div class="suggestion">Robert Frost</div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
